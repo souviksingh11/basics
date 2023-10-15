@@ -104,6 +104,62 @@ int main()
 //     cout<<"lose"<<endl;
 //     cout<<(a-b);
 // }
+// int a;
+// cout<<"enter a no :";
+// cin>>a;
+// if (a%5==0 || a%3==0){
+
+//     cout<<"true"<<endl;
+// }
+// else{
+//     cout<<"false"<<endl;
+// }
+
+// int b;
+// cout<<"enter b no :";
+// cin>>b;
+// if (b%5==0  && b%3==0){
+//     cout<<"true"<<endl;
+// }
+// else{
+//     cout<<"false"<<endl;
+// }
+
+
+// int a;
+// cout<<"enter a no :";
+// cin>>a;
+// if (a>99 || a<1000){
+
+//     cout<<"three digit no"<<endl;
+// }
+// else{
+//     cout<<"not three digit no"<<endl;
+// }
+int a;
+int b;
+int c;
+cout<<"enter a no:";
+cin>>a;
+cout<<"enter b no:";
+cin>>b;
+cout<<"enter c no:";
+cin>>c;
+
+if(a>b && a>c){
+    cout<<"the number is a grether than all"<<" "<<a<<endl;
+}
+
+else if(b>a && b>c){
+     cout<<"the number is b grether than all"<<" "<<b<<endl;
+}
+else if(c>a && c>b){
+    cout<<"the number is c grether than all"<<" "<<c<<endl;
+}
+else{
+    cout<<"all equal";
+}
+
 
 
 
