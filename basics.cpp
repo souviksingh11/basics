@@ -213,54 +213,205 @@ int main()
     //     cout << "koi greater than nhi h";
     // }
 
-// char x;
-// cout<<"enter youe char:";
-// cin>>x;
-// if(x=='a' || x=='e' || x=='i' || x=='o' || x=='u'){
-//     cout<<"this is vowel";
-// }
-// else{
-//     cout<<"this is not vowel";
-// }
-// int a;
-// int b;
-// int c;
-// cin>>a;
-// cin>>b;
-// cin>>c;
-// if(a+b>c || b+c>a || c+a>b){
-//     cout<<"this is a triangle";
-// }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-// else{
-//     cout<<"this is a not triangle";
-// }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-// int a=3;
-// (a==5)?cout<<"true":cout<<"false";
+    // char x;
+    // cout<<"enter youe char:";
+    // cin>>x;
+    // if(x=='a' || x=='e' || x=='i' || x=='o' || x=='u'){
+    //     cout<<"this is vowel";
+    // }
+    // else{
+    //     cout<<"this is not vowel";
+    // }
+    // int a;
+    // int b;
+    // int c;
+    // cin>>a;
+    // cin>>b;
+    // cin>>c;
+    // if(a+b>c || b+c>a || c+a>b){
+    //     cout<<"this is a triangle";
+    // }
+    // else{
+    //     cout<<"this is a not triangle";
+    // }
+    // int a=3;
+    // (a==5)?cout<<"true":cout<<"false";
+    // int x;
+    // int y;
+    // char op;
+    // cin>>x;
+    // cin>>op;
+    // cin>>y;
+    // switch(op){
+    //     case '+':
+    //     cout<<x+y;
+    //     break;
+    //     case '-':
+    //     cout<<x-y;
+    //     break;
+    //     case '*':
+    //     cout<<x*y;
+    //     break;
+    //     case '/':
+    //     cout<<x/y;
+    //     break;
+
+    //     default:
+    //     cout<<"invalid";
+    // }
+
+    // cout<<"good morning"<<endl;
+    // for(int i=1; i<=10; i++){
+    //     cout<<i*19<<endl;
+    // }
+
+    // for(int i=19; i<=190; i=i+19){
+    //     cout<<i<<endl;
+    // }
+    // for(int i=2; i<=10; i=i+2){
+    //     cout<<"even"<<" "<<i<<endl;
+    // }
+    // for(int i=1; i<=100; i=i+1){
+    //     if(i%2==0){
+    //         cout<<"even"<<"   "<<i<<endl;
+    //     }
+    // else{
+    //     cout<<"odd"<<"    "<<i<<endl;
+    // }
+    // }
+    // for(int i=1; i<=15; i=i+2){
+    //     cout<<i<<endl;
+    // }
+    // for(int i=1; i<=16; i=i+3){
+    //     cout<<i<<endl;
+    // }
+    // for (int i = 1; i <= 10; i++)
+    // {
+    //     cout<<"Enter No"<<" "<<i<<" "<<":";
+    //     if (i >= 18)
+    //     {
+    //         cout<<i<<" "<<"vote de payega"<<endl;
+
+    //     }
+    //     else{
+    //         cout<<i<<" "<<"vote nhi de payega"<<endl;
+
+    //     }
+    // }
+    // for (int i = 1; i <= 10; i++)
+    //     {
+    //         cout<<"Enter No"<<" "<<i<<" "<<":";
+    //         int x;
+    //         cin>>x;
+    //         if (x >= 18)
+    //         {
+    //             cout<<x<<" "<<"vote de payega"<<endl;
+
+    //         }
+    //         else{
+    //             cout<<x<<" "<<"vote nhi de payega"<<endl;
+
+    //         }
+    //     }
+    // for (int i = 1; i <= 10; i++)
+    // {
+
+    //     int x;
+    //     cin >> x;
+    //     if (x != 50 && x <= 50)
+    //     {
+    //         if (x % 2 == 0)
+    //         {
+    //             cout << x << " "
+    //                  << "even no" << endl;
+    //         }
+    //         else
+    //         {
+    //             cout << x << " "
+    //                  << "odd" << endl;
+    //         }
+    //     }
+    //     else{
+    //         cout<<"no invalied";
+    //     }
+    // }
+    //     int i=0;
+    // while (i<=10){
+    //     cout<<i<<endl;
+    //     i++;
+    // }
+    //     int i=1;
+    // while (i<=10){
+    //     cout<<i<<endl;
+    //     i=i+2;
+    // }
+    // int x;
+    // cin >> x;
+    // if(x==1){
+    //     cout<<"this is a prime no";
+    // }
+    // for (int i = 2; i <= x; i++)
+    // {
+    //     if (x % i == 0)
+    //     {
+    //         cout << "this is not prime no"<<endl;
+    //         break;
+    //     }
+    //     else
+    //     {
+    //         cout<<"this is a prime no"<<endl;
+    //         break;
+    //     }
+    // }
+
+    // char x;
+    // cin>>x;
+
+    // int y = static_cast<int>(x);
+
+    // cout<<"asci value is"<<x<<" "<<y<<endl;
+
+    // for(char x = '0'; x<='9'; x++){
+    //     int ascii = static_cast<int>(x);
+    //     cout<<"ascii value of"<<" "<<x<<" "<<ascii<<endl;
+    // }
+
+    // for (int i = 1; i <= 100; i++)
+    // {
+    //     if (i % 2 != 0)
+    //     {
+    //         cout << i << " "
+    //              << "odd" << endl;
+            
+    //     }
+    // }
+
+
 // int x;
-// int y;
-// char op;
 // cin>>x;
-// cin>>op;
-// cin>>y;
-// switch(op){
-//     case '+':
-//     cout<<x+y;
-//     break;
-//     case '-':
-//     cout<<x-y;
-//     break;
-//     case '*':
-//     cout<<x*y;
-//     break;
-//     case '/':
-//     cout<<x/y;
-//     break;
-    
-    
-//     default:
-//     cout<<"invalid";
+// int count=0;
+// while(x>0){
+//     int remainder = x%10;
+//     count++;
+//     x = x/10;
+
 // }
 
+// cout<<"the x count is "<<" "<<count;
+
+// reverse a number
+
+int x;
+cin>>x;
+int r = 0;
+while(x>0){
+    r *= 10;
+    r =(x%10)+r;
+    x= x/10; 
+
+}
+
+cout<<r;
 
 
 
@@ -274,5 +425,19 @@ int main()
 
 
 
-    return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return 0;
 }
