@@ -382,38 +382,157 @@ int main()
     //     {
     //         cout << i << " "
     //              << "odd" << endl;
-            
+
     //     }
     // }
 
+    // int x;
+    // cin>>x;
+    // int count=0;
+    // while(x>0){
+    //     int remainder = x%10;
+    //     count++;
+    //     x = x/10;
 
-// int x;
-// cin>>x;
-// int count=0;
-// while(x>0){
-//     int remainder = x%10;
-//     count++;
-//     x = x/10;
+    // }
 
+    // cout<<"the x count is "<<" "<<count;
+
+    // reverse a number
+
+    // int x;
+    // cin>>x;
+    // int r = 0;
+    // while(x>0){
+    //     r *= 10;
+    //     r =(x%10)+r;
+    //     x= x/10;
+
+    // }
+
+    // cout<<r;
+
+    // int x;
+    // cin>>x;
+    // int r=0;
+    // while(x>0){
+    //     r=r+0;
+    //     r=(x%10)+r;
+    //     x=x/10;
+
+    // }
+    //  cout<<r<<endl;
+
+    // int x;
+    // cin>>x;
+    // int r=1;
+    // for(int i=1; i<=x; i++){
+    //     r=r*i;
+    //     cout<<r<<endl;
+    // }
+
+    // int x;
+    // cin>>x;
+    // int r=0;
+    // for(int i=1; i<=x; i++){
+    //     if(i%2==0){
+    //         r=r-i;
+
+    //     }
+    //     else{
+    //         r=r+i;
+
+    //     }
+
+    // }
+    // cout<<r;
+//     int n;
+//     cin>>n;
+//    if (n == 0) return 0;
+//     if (n == 1) return 1;
+
+//     int a = 0, b = 1, result;
+
+//     for (int i = 2; i <= n; i++) {
+//         result = a + b;
+//         a = b;
+//         b = result;
+//     }
+//     cout<<result;
+
+// int a=4;
+// int b=6;
+// int x=a;
+// a=b;
+// b=x;
+// cout<<a<<""<<b;
+
+// int a=6;
+// int b=4;
+// a=(a+b);
+// b=abs(b-a);
+// a=a-b;
+// cout<<a<<" "<<b;
+
+// int a;
+// cin>>a;
+// int r=0;
+// while(a>0){
+//     r=r*10;
+//     r=a%10+r;
+//     a=a/10;
+//     cout<<r<<endl;
 // }
 
-// cout<<"the x count is "<<" "<<count;
+// cout<<"*"<<"*"<<"*"<<endl;
+// cout<<"*"<<"*"<<"*"<<endl;
+// cout<<"*"<<"*"<<"*"<<endl;
 
-// reverse a number
+// for(int i=0; i<5; i++){
+//     for(int j=0; j<3; j++){
+//         cout<<j;
 
-int x;
-cin>>x;
-int r = 0;
-while(x>0){
-    r *= 10;
-    r =(x%10)+r;
-    x= x/10; 
-
-}
-
-cout<<r;
+//     }
+//     cout<<endl;
+// }
 
 
+// for(int i=0; i<5; i++){
+//     for(int j=0; j<3; j++){
+//         cout<<"*";
+
+//     }
+//     cout<<endl;
+// }
+
+// for(int i=5; i>1;i--){
+//     for(int j=0; j<3; j++){
+//         cout<<i;
+//     }
+//     cout<<endl;
+// }
+
+// for(int i=1; i<=4; i++){
+    
+//     for(int j=1; j<=i; j++){
+//         int add = i+j-1;
+//         cout<<add;
+       
+        
+//     }
+//     cout<<endl;
+
+
+// }
+int num = 1;
+
+ for (int i = 1; i <= 4; i++) {
+        for (int j = 1; j <= i; j++) {
+            cout <<num<< " ";
+            num++;
+        }
+        cout << endl;
+    }
 
 
 
@@ -428,16 +547,5 @@ cout<<r;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-return 0;
+    return 0;
 }
