@@ -524,15 +524,63 @@ int main()
 
 
 // }
-int num = 1;
+// int num = 1;
 
- for (int i = 1; i <= 4; i++) {
-        for (int j = 1; j <= i; j++) {
-            cout <<num<< " ";
-            num++;
-        }
-        cout << endl;
-    }
+//  for (int i = 1; i <= 4; i++) {
+//         for (int j = 1; j <= i; j++) {
+//             cout <<num<< " ";
+//             num++;
+//         }
+//         cout << endl;
+//     }
+
+
+// int n1=0;
+// int n2=1;
+
+// int sum;
+// int n;
+// cin>>n;
+// if (n1==0) cout<<0<<endl;
+// if(n2==1) cout<<1<<endl;
+// for (int i=2; i<n; i++){
+//     sum=n1+n2;
+//     n1=n2;
+//     n2=
+
+// for(int i=1; i<=4; i++){
+//     for(int j=1; j<=i; j++){
+//         cout<<"*";
+//     }
+//     cout<<endl;
+// }
+
+// for(int i=1; i<=4; i++){
+//     for(int j=1; j<=i; j++){
+//         cout<<"*";
+//     }
+//     cout<<endl;
+// }
+
+// for(int i=1; i<=4; i++){
+//     for(int j=1; j<=i; j++){
+//         cout<<"*";
+//     }
+//     cout<<endl;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
