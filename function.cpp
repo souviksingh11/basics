@@ -22,10 +22,32 @@ using namespace std;
 
 // }
 
-int minimum(int x , int y){
-    if (x>y) return x;
-else return  y;
+// int minimum(int x , int y){
+//     if (x>y) return x;
+// else return  y;
+// }
+
+int multyply(int x){
+    int c=1;
+    for(int i=1; i<=x; i++){
+        c=c*i;
+
+    }
+    return c;
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
+
 
 int main()
 {
@@ -49,31 +71,24 @@ int main()
 // day();
 
 
-cout<<minimum(12,5);
+// cout<<minimum(12,5);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// int x=1;
+// for(int i=1; i<=5; i++){
+//     x=x*i;
+    
+// }
+// cout<<x;
+int n;
+cout<<"Enter the value of n"<<endl;
+cin>>n;
+ int nvalue = multyply(n);
+ int r;
+ cout<<"Enter the value of r"<<endl;
+ cin>>r;
+int rvalue =  multyply(n-r);
+int npr = nvalue/rvalue;
+cout<<"The permutation value is :"<<" "<<npr;
 
 
     return 0;

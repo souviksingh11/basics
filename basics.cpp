@@ -569,11 +569,42 @@ int main()
 //     cout<<endl;
 // }
 
+// int even = 0;
+// int odd = 0;
+// for(int i=4; i<8; i++){
+//     if(i%2==0){
+//         even = even + i;
+//    }
+//    else {
+//     odd = odd + i;
+//    }
+   
+// }
 
+//  int diff = abs(even - odd);
 
+//  cout<<diff;
 
+int a;
+cin>>a;
+// int even =0;
+// int odd=0;
 
-
+int r=0;
+int even =0;
+int odd =0;
+while (a>0){
+    r=a%10;
+    if(r%2==0){
+        even = even +r;
+    }
+    else {
+        odd = odd + r;
+    }
+    a /= 10;
+}
+int diff = abs(even - odd);
+cout<<diff;
 
 
 
